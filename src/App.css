@@ -34,11 +34,14 @@
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
+  margin: 0 auto;
+  
 }
 
 .landing_content {
  margin-top: 430px;
   margin-left: 100px;
+  margin-right: -150px;
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
@@ -50,6 +53,8 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+  padding-left: 30px;
+
 }
 
 .content p,
@@ -144,4 +149,8 @@
   .aboutus_container {
     width: 90%; /* Adjust as needed */
   }
+}
+
+
+.left_0 {
 }

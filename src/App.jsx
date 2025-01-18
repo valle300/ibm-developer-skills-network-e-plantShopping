@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
 import AboutUs from './AboutUs';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   
@@ -13,10 +15,10 @@ function App() {
   };
 
   return (
-    <div className="app-container">
+    <div className="app-container left_0">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
         <div className="background-image"></div>
-        <div className="content">
+        <div className="content left_0">
          <div className="landing_content">
          <h1>Welcome To Paradise Nursery</h1>
           <div className="divider"></div>
